@@ -1,10 +1,13 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
+import Items from '../components/Items'
 
 const Dashboard = () => {
   return (
-    <div>
-      <h1>Dashboard</h1>
-    </div>
+    <>
+    <Navbar/>
+    <Items/>
+    </>
   )
 }
 
